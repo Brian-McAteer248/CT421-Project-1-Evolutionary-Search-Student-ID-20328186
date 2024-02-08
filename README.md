@@ -26,6 +26,8 @@ The code in `part_a_genetic_algorithm()` follows these high level genetic algori
   * Carry out mutation at a rate of `rate_of_mutation`.
   * Assign result as new generation.
   * Calculate fitness of new generation.
+ 
+The results are plotted using the `matplotlib` library.
 
 ### Part B
 `part-b.py` contains the Python code for Part B of this project.
@@ -39,3 +41,5 @@ Parameters such as `rate_of_mutation` and `max_iterations` are specified once as
 genetic algorithm.
 
 The high level algorithmic steps are the same as the code in `part_a.py`.
+
+Similarly to `part-a.py`, the results are plotted using the `matplotlib` library.
