@@ -6,7 +6,7 @@ Repository for 'CT421 Project 1 - Evolutionary Search' for Brian McAteer (Studen
 `part-a.py` contains the Python code for Part A of this project.
 
 In this file, there is a `part_a_genetic_algorithm()` function that itself has some nested function definitions
-such as `crossover()` and `mutata()`, which remain constant across Part A.
+such as `crossover()` and `mutate()`, which remain constant across Part A.
 
 The fitness functions, however, are defined outside of `part_a_genetic_algorithm()` and are passed in as a
 to `part_a_genetic_algorithm()` (param name `fitness_func`). A different fitness function can be passed in
